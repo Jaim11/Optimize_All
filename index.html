@@ -13,6 +13,11 @@
     <style>
 
         body{margin: 0; background-color: #0d0d20;}
+
+        .position{
+            position: relative;
+        }
+
         ul {
             list-style-type: none;
             margin: 0;
@@ -68,9 +73,25 @@
             font-family: handjet;
         }
 
+        .img{display: flex; margin-left: 30%;}
 
-        .img{
+        .fps{
+            position: relative;
+            top: -200px;
+        }
 
+        .fps-div{
+            position: relative;
+        }
+
+        .fps-div h1{
+            position: relative;
+            top: -230px;
+            right: 40px;
+            background-color: #55549e;
+            padding: 10px;
+            border-radius: 10px;
+            font-family: tektur;
         }
 
     </style>
@@ -82,20 +103,32 @@
         <li><a href="news.asp">Contact</a></li>
         <li><a href="contact.asp">News</a></li>
         <li><a href="about.asp">Home</a></li>
-      </ul>
+    </ul>
+    
+      
+    <div class="position">
+        <div class="background">
+            <img src="images/pic1.png" alt="" class="back">
 
-    <div class="background">
-        <img src="images/pic1.png" alt="" class="back">
-
-        <div>
-            <h1 class="header"> <span class="h1"> OPTIMIZE ALL </span> </h1>
-            <h1 class="sub-header"> Unleash Your PC's Full Potential </h1>
+            <div>
+                <h1 class="header"> <span class="h1"> OPTIMIZE ALL </span> </h1>
+                <h1 class="sub-header"> Unleash Your PC's Full Potential </h1>
+            </div>
         </div>
-    </div>
 
-    <div class="img">
-        <img src="images/fps.png" alt="" width="150px">
-    </div>
+        <div class="img">
+            <div class="fps-div">
+                <img src="images/fps.png" alt="" width="150px" class="fps">
+                <h1>Increase FPS</h1>
+            </div>
 
+            <div class="cpu-div">
+                <img src="images/cpu.png" alt="" width="150px">
+            </div>
+        </div>
+
+        
+
+    </div>   
 </body>
 </html>
