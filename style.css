@@ -1,0 +1,204 @@
+body{margin: 0; background-color: #0d0d20;}
+
+.position{
+    position: relative;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+    font-family: monospace;
+    transition: 0.3s ease;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.back{
+    width: 100%;
+    position: relative;
+}
+
+.header{
+    font-size: 70px;
+    position: relative;
+    top: -630px;
+    text-align: center;
+    color: #01122e;
+    font-family: tektur;
+}
+.h1{
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sub-header{
+    position: relative;
+    top: -610px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-family: handjet;
+}
+
+.img{display: flex; align-items: center; justify-content:center; margin: 50px;   text-align: left; font-family: sans-serif;}
+
+.fps-div{
+    
+    padding: 20px;
+    margin: 50px;
+    width: 250px;
+    height: 130px;
+    background-color: rgba(150, 150, 150, 0.3);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    transition: 0.3s ease;
+    color: white;
+}
+
+.fps-div h1{
+    margin: 0;
+}
+
+
+.fps-div:hover{
+    box-shadow: 20px 20px 20px black;
+    width: 260px;
+    height: 140px;
+    font-size: 17px;
+}
+
+.cpu-div{
+    padding: 20px;
+    margin: 50px;
+    width: 250px;
+    height: 130px;
+    background-color: rgba(150, 150, 150, 0.3);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    transition: 0.3s ease;
+    color: white;
+}
+.cpu-div h1{
+    margin: 0;
+}
+.cpu-div:hover{
+    box-shadow: 20px 20px 20px black;
+    width: 260px;
+    height: 140px;
+    font-size: 17px;
+}
+
+.feature{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.feature span{
+    background-color: #55549e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+
+
+.download-container {
+    background-color: rgba(150, 150, 150, 0.3);
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -350px;
+    border: 1px solid #555861;
+}
+
+.header-download{
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: tektur;
+}
+
+.text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 400px;
+    color: #cccccc;
+    font-family: open sans,sans-serif;
+}
+
+.download-container p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: white;
+    
+}
+
+.download-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    cursor: pointer;
+    width: 150px;
+    margin-left: 18px;
+}
+
+.download-button:hover{
+    box-shadow: ;
+}
+
+
+
+
+.download{
+    position: relative;
+    top: -600px;
+    left: 50px;
+}
+.download a{
+    background-color:darkorchid;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+footer div{
+    background-color: #05011f;
+    height: 50px;
+    width: 100%;
+}

@@ -10,102 +10,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Handjet&family=Tektur&display=swap" rel="stylesheet">
-    <style>
-
-        body{margin: 0; background-color: #0d0d20;}
-
-        .position{
-            position: relative;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        li {
-            float: right;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size:20px;
-            font-family: monospace;
-        }
-
-        /* Change the link color to #111 (black) on hover */
-        li a:hover {
-            background-color: #111;
-        }
-
-        .back{
-            width: 100%;
-            position: relative;
-        }
-
-        .header{
-            font-size: 70px;
-            position: relative;
-            top: -690px;
-            text-align: center;
-            color: #01122e;
-            font-family: tektur;
-        }
-        .h1{
-            background-color: bisque;
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        .sub-header{
-            position: relative;
-            top: -670px;
-            text-align: center;
-            font-size: 60px;
-            color: white;
-            font-family: handjet;
-        }
-
-        .img{display: flex; margin-left: 30%;}
-
-        .fps{
-            position: relative;
-            top: -200px;
-        }
-
-        .fps-div{
-            position: relative;
-        }
-
-        .fps-div h1{
-            position: relative;
-            top: -230px;
-            right: 40px;
-            background-color: #55549e;
-            padding: 10px;
-            border-radius: 10px;
-            font-family: tektur;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
-    <ul>
-        <li><a href="default.asp">About</a></li>
-        <li><a href="news.asp">Contact</a></li>
-        <li><a href="contact.asp">News</a></li>
-        <li><a href="about.asp">Home</a></li>
-    </ul>
+    <div class="menu">
+        <ul>
+            <li><a href="default.asp">About</a></li>
+            <li><a href="news.asp">Contact</a></li>
+            <li><a href="contact.asp">News</a></li>
+            <li><a href="about.asp">Home</a></li>
+        </ul>
+    </div>
+     
     
-      
+
+
     <div class="position">
         <div class="background">
             <img src="images/pic1.png" alt="" class="back">
@@ -116,19 +37,46 @@
             </div>
         </div>
 
+
+        <div class="download-container">
+            <div class="header-download">Optimizer Pack</div>
+            <div class="text">It is a Zip File with differrent kinds of Optimization Files. It helps you to Reach your Pc's Full Potential</div>
+            <p><b>Released:</b> 17 August&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Downloads:</b> 0&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b>Version:</b> 1.0</p>
+            <a href="your-download-link-here" class="download-button">Download</a>
+        </div>
+           
+
+        <div class="feature"> <h1> <span> THE FEATURES </span> </h1> </div>
+
         <div class="img">
             <div class="fps-div">
-                <img src="images/fps.png" alt="" width="150px" class="fps">
                 <h1>Increase FPS</h1>
+                <p> 
+                    *Disables Unneccesary Services 
+                    *Remove Unused Applications
+                    *Optimize FPS
+                </p>
             </div>
 
             <div class="cpu-div">
-                <img src="images/cpu.png" alt="" width="150px">
+                <h1>Boost CPU</h1>
+                <p> 
+                    *Optimize Power Plan <br>
+                    *High Priority <br>
+                    *Optimize CPU
+                </p>
             </div>
+            
         </div>
 
+            
+    </div>  
+    
+    
+    <footer> 
         
+        <div>  </div>
 
-    </div>   
+    </footer>
 </body>
 </html>
