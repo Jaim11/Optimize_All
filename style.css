@@ -74,6 +74,7 @@ li a:hover {
     box-shadow: 10px 10px 20px black;
     transition: 0.3s ease;
     color: white;
+    border: 1px solid #555861;
 }
 
 .fps-div h1{
@@ -98,6 +99,7 @@ li a:hover {
     box-shadow: 10px 10px 20px black;
     transition: 0.3s ease;
     color: white;
+    border: 1px solid #555861;
 }
 .cpu-div h1{
     margin: 0;
