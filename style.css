@@ -175,10 +175,11 @@ li a:hover {
     cursor: pointer;
     width: 150px;
     margin-left: 18px;
+    transition: 0.3s ease;
 }
 
 .download-button:hover{
-    box-shadow: ;
+    box-shadow: 5px 5px 10px rgba(52, 94, 235, 0.3) ;
 }
 
 
