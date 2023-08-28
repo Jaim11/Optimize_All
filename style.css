@@ -84,9 +84,9 @@ li a:hover {
 
 .fps-div:hover{
     box-shadow: 20px 20px 20px black;
-    width: 260px;
-    height: 140px;
-    font-size: 17px;
+    width: 255px;
+    height: 135px;
+    font-size: 16px;
 }
 
 .cpu-div{
@@ -106,9 +106,9 @@ li a:hover {
 }
 .cpu-div:hover{
     box-shadow: 20px 20px 20px black;
-    width: 260px;
-    height: 140px;
-    font-size: 17px;
+    width: 255px;
+    height: 135px;
+    font-size: 16px;
 }
 
 .feature{
